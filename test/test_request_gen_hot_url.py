@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8  zhushi -*-
 
 from __future__ import absolute_import, unicode_literals, print_function
 
@@ -7,7 +7,6 @@ from nose.tools import assert_in, assert_raises
 
 from wechatsogou.const import WechatSogouConst
 from wechatsogou.request import WechatSogouRequest
-
 
 class TestBasicGenSearchArticleURL(unittest.TestCase):
     def test_gen_hot_url(self):
